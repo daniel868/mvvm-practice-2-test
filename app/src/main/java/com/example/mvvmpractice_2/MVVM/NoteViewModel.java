@@ -15,6 +15,7 @@ import java.util.List;
 public class NoteViewModel extends AndroidViewModel {
     private NoteRepository noteRepository;
     private LiveData<List<Note>>allNotes;
+    private List<String>myTestUpdateGit;
 
     public NoteViewModel(@NonNull Application application) {
         super(application);
